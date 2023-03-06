@@ -1,0 +1,29 @@
+Aprendendo JavaScript
+
+
+Módulo A
+    Bibliografia
+        JavaScript - O guia Definitivo
+        JavaScript - Guia do Programador
+        Site Mozilla
+        site ECMA
+    
+    Comandos 'window'
+        alert (' mensagem ')  -  Abre uma jalena com a mensagem programada;
+        confirm ('')  -  Abre uma janela com a mensagem e botões de Ok e cancelar;
+        prompt ('')  -  Abre um prompt para entrada de dados;
+
+Módulo B
+    como fazer comentários?
+    // - Linha única
+    /* */ - comentários de mais de uma Linha
+
+    = recebe
+    == igual
+    null - variável fica nula
+    var - variáveis
+
+    Identificadores
+        São os nomes dados as variáveis, podendo ser iniciados com letras, $ ou _, não podendo ser iniciado com números. É possível usar letras e números, acentos e símbolos. Não é possível utilizar espaços ou palavras reservadas.
+
+    
