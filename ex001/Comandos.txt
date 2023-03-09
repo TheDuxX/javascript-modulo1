@@ -26,4 +26,79 @@ Módulo B
     Identificadores
         São os nomes dados as variáveis, podendo ser iniciados com letras, $ ou _, não podendo ser iniciado com números. É possível usar letras e números, acentos e símbolos. Não é possível utilizar espaços ou palavras reservadas.
 
+    Operadores - Aritméticos
+        +   Soma
+        -   Subtração
+        *   Multiplicação
+        /   Divisão de números reais
+        %   Resto da divisão de números inteiros
+        **  Potência
+
+        Obs.: Tomar cuidado com a procedência de operadores. 
+        
+        Precedência
+        1º () 
+        2º **
+        3º * / %
+        4º + -
+
+    Operadores - Atribuição 
+            var     Variavel que pode guardar valores
+            =       Recebe
+            +=      Auto-atribuição (soma o valor da variavel)
+
+            Incremento
+                ++ ou -- Incrementa a variavel em 1
+
+    Operadores - Relacionais
+        Retorna valores de verdadeiro ou falso como resultado das operações.
+        >   Maior que
+        <   Menor que
+        >=  Maior ou igual que
+        <=  Menor ou igual que
+        ==  Igual
+        !=  Diferente
+
+    Operadores - Identidade
+        === testa se tem o mesmo valor e tipo
+        !== testa se tem valor diferente e mesmo tipo
+
+    Operadores - Lógicos
+        !   negação
+        &&  conjunção
+        ||  disjunção
     
+    Operadores - Ternário
+        ?: Composto por 3 partes - Da duas opções de resultado para o teste
+            Teste ? true : false
+            2>1 ? 'MAIOR' : 'MENOR'
+
+Módulo C - Conhecendo o DOM
+    Árvore DOM - Formação hierárquica
+                      window
+               /        |       \
+            location document history
+                       |
+                     html
+                    /   \
+                head     body
+              /  |         / |  | \
+            meta title  h1 p p div
+                             |
+                         strong
+
+    Selecionando por Marca
+        getElementsByTagName()
+    
+    Selecionando por Id
+        getElementsById()
+
+    Selecionando por Nome
+        getElementsByName()
+
+    Selecionando por Classe
+        getElementsByClassName()
+    
+    Selecionando por Seletor
+        querySelector()
+        querySelectorAll()
