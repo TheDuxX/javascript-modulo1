@@ -102,3 +102,44 @@ Módulo C - Conhecendo o DOM
     Selecionando por Seletor
         querySelector()
         querySelectorAll()
+
+    Eventos DOM
+        Tudo aquilo que pode acontecer com o elemento.
+
+    Funções
+        Conjunto de linhas que serão executadas somente quando o evento ocorrer.
+            function ação(parâmetros) {
+                            }
+    
+    Para chamar o evento via HTML usamos os marcadores "on...", para chamar os eventos via JavaScript usamos addEventListener('evento', nome do evento)
+
+Módulo D
+    Condições Simples - Quando temos apenas o bloco de true. Quando não é necessário condição de "se não".
+
+        if (condição) {
+            true
+        }
+
+    Condição Composta - Quando temos os blocos de true e false.
+
+        if (condição) {
+            true
+        } else {
+            false
+        }
+
+    Condições Aninhadas - Quando temos condições dentro de outra condição
+
+    Condições Múltiplas - Quando temos mais de duas condições lineares. (Para valores inteiros e pontuais)
+        switch (expressão) {
+            case valor1:...
+                break
+            case valor2:...
+                break
+            case valor3:...
+                break
+            defaut:...
+                break
+        }
+
+        O comando break os códigos vão continuar a ser executados até ser encontrado um break.
